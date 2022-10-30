@@ -9,7 +9,7 @@ const loadMeals = (search) => {
    
    const displayMeal = (meals)=>{   
    const mealContainer = document.getElementById('meals-container');
-   displayMeal.innerHTML = ``;
+   mealContainer.innerHTML = ``;
    for(const meal of meals){
  
    const mealDiv = document.createElement('div')
